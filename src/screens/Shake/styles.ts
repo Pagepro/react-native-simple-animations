@@ -22,11 +22,11 @@ export const StyledButtonWrapper = styled.View`
   margin-top: 32px;
 `;
 
-export const StyledButton = styled.TouchableOpacity`
-  background-color: orange;
+export const StyledButton = styled.TouchableHighlight`
+  background-color: peachpuff;
   padding: 16px;
   flex-shrink: 0;
-  border-radius: 8px;
+  transform: skewX(-15deg);
 `;
 
 export const StyledButtonLabel = styled.Text`
